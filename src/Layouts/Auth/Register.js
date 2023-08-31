@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../css/Login.css';
 
 export default function Register () {
     return (
@@ -21,7 +22,7 @@ export default function Register () {
 
                     </div>
                 </div>
-                <div class="lg:w-1/2 p-6 sm:p-24">
+                <div class="lg:w-3/4 p-2 sm:p-24">
                     {/* <div>
                         <img src="https://storage.googleapis.com/devitary-image-host.appspot.com/15846435184459982716-LogoMakr_7POjrN.png"
                             class="w-32 mx-auto" />
@@ -31,8 +32,7 @@ export default function Register () {
                             Registrasi Anggota IDI
                         </h1>
                         <div class="w-full flex-1 mt-8">
-                            
-                                <form class="w-full max-w-lg">
+                                <form class="w-full max-h-lg">
                                     <div class="flex flex-wrap -mx-3 mb-6 ">
                                         <div class="w-full md:w-1/2 px-3 py-2">
                                             <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
